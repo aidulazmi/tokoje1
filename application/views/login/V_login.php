@@ -11,7 +11,7 @@ Author URL: http://w3layouts.com
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <!-- //Meta tag Keywords -->
-    <link rel="icon" type="image/png" href="<?=base_url();?>/asset/loginu/images/logo.png"/>
+    <link rel="icon" type="image/png" href="<?=base_url();?>/asset/loginu/images/Brand2.png"/>
     <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <!--/Style-CSS -->
     <link rel="stylesheet" href="<?=base_url();?>/asset/loginu/css/style.css" type="text/css" media="all" />
@@ -42,7 +42,7 @@ Author URL: http://w3layouts.com
                         <button class="btn btn-primary btn-block" type="submit">Masuk</button>
                     </form>
 
-                    <p class="account">Kamu Belum Memiliki Akun? <a href="<?php echo site_url('C_client/daftar')?>">Daftar</a></p>
+                    <p class="account">Kamu Belum Memiliki Akun? <a href="<?php echo site_url('C_login/register')?>">Daftar</a></p>
                 </div>
             </div>
             <!-- //main content -->
