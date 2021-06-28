@@ -114,7 +114,7 @@
                       </tr>
                       <tr>
                         <th></th>
-                        <td><a href="" class="btn btn-app bg-danger">
+                        <td><a href="<?php echo site_url('C_user/Pembayaran')?>" class="btn btn-app bg-danger">
                           <i class="fas fa-inbox"></i> Lakukan Pembayaran
                           </a></td>
                       </tr>
