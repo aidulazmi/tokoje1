@@ -17,7 +17,7 @@ class C_login extends CI_Controller {
                         if($this->session->userdata("status") == "Admin"){
                             redirect('C_admin');
                         }elseif($this->session->userdata("status") == "User"){
-                            redirect('C_user');
+                            redirect('C_user/index');
                         }else{
                            $data['error'] = '<div class="alert alert-danger" style="margin-top: 3px">
                         <div class="header"><b><i class="fa fa-exclamation-circle"></i> ERROR</b> username atau password salah!</div></div>';
@@ -64,7 +64,7 @@ class C_login extends CI_Controller {
                         if($this->session->userdata("status") == "Admin"){
                             redirect('C_admin');
                         }elseif($this->session->userdata("status") == "User"){
-                            redirect('C_user');
+                            redirect('C_user/index');
                         }else{
                            $data['error'] = '<div class="alert alert-danger" style="margin-top: 3px">
                         <div class="header"><b><i class="fa fa-exclamation-circle"></i> ERROR</b> username atau password salah!</div></div>';

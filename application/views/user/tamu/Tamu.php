@@ -253,9 +253,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 								<a class="nav-link" href="<?php echo site_url('C_user/index')?>">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo site_url('C_user/produk')?>">Produk</a>
-							</li>
-							<li class="nav-item">
 								<a class="nav-link" href="<?php echo site_url('C_user/pembayaran')?>">Pembayaran</a>
 							</li>
 							
@@ -292,12 +289,9 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="carousel-item active">
 							<div class="container">
 								<div class="carousel-caption">
-									<h3>Women's
-										Fashion
-										<br>50% Off</h3>
-									<a href="#" class="shop-button btn">
-										Shop Now
-									</a>
+									<h3>
+										Fathiya Printing
+										<br></h3>
 
 								</div>
 							</div>
@@ -305,9 +299,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="carousel-item item2">
 							<div class="container">
 								<div class="carousel-caption">
-									<h3>Men's
-										Fashion
-										<br>60% Off</h3>
+									<h3>Fathiya Poster</h3>
 									<a href="#" class="shop-button btn">
 										Shop Now
 									</a>
@@ -318,12 +310,8 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="carousel-item item3">
 							<div class="container">
 								<div class="carousel-caption">
-									<h3>Women's
-										Fashion
-										<br>#</h3>
-									<a href="ecommerce.html" class="shop-button btn">
-										Shop Now
-									</a>
+									<h3>Fathiya Kartu Nama
+										</h3>
 
 								</div>
 							</div>
@@ -331,12 +319,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="carousel-item item4">
 							<div class="container">
 								<div class="carousel-caption">
-									<h3>Men's
-										Fashion
-										<br>60% Off</h3>
-									<a href="#" class="shop-button btn">
-										Shop Now
-									</a>
+									<h3>Fathiya Brosur</h3>
 								</div>
 							</div>
 						</div>
@@ -356,9 +339,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 			<div class="right-banner">
 				<div class="right-1">
 					<h4>
-						Men's
-						Fashion
-						<br>50% Off</h4>
+						Undangan Desain</h4>
 				</div>
 			</div>
 
@@ -455,15 +436,16 @@ RIGHT SIDEBAR TOGGLE SECTION
 									<input type="hidden" name="add" value="1">
 									<input type="hidden" name="transmitv_item" value=" <?php echo $u->nama_barang ?>">
 									<input type="hidden" name="amount" value="<?php echo $u->harga ?>">
+									<input type="hidden" name="harga" value="<?php echo $u->harga ?>">
 									<button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-										Add to Cart
+										Keranjang
 									</button>
 								</form>
 							</div>
 						</div>
 						<div class="product-content">
-							<h3 class="title"><a href="ecommerce-single.html"><?php echo $u->nama_barang ?> </a></h3>
-							<span class="price"><?php echo $u->harga ?></span>
+							<h3 class="title"><a href="#"><?php echo $u->nama_barang ?> </a></h3>
+							<span class="price">Rp. <?php echo $u->harga ?></span>
 						</div>
 					</div>
 				</div>
@@ -474,31 +456,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 		</div>
 	</div>
 </section>
-<!-- //products-->
-<section class="w3l-content-5">
-	<!-- /content-6-section -->
-	<div class="content-5-main">
-		<div class="container">
-			<div class="content-info-in row">
-				<div class="content-gd col-md-6 offset-lg-3 text-center">
-					<h3 class="hny-title two">
-						Tons of Products & Options to
-						<span>change</span></h3>
-					<p>Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam
-						animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere
-						aperiam sequi optio consectetur adipisicing elit..</p>
-					<a href="ecommerce.html" class="read-more-btn2 btn">
-						Shop Now
-					</a>
-
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-</section>
-
 </html>
 
 <script src="<?=base_url();?>/asset/jualan/assets/js/jquery-3.3.1.min.js"></script>

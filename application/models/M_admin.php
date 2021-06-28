@@ -59,4 +59,43 @@ class M_admin extends CI_Model{
 		$this->db->where($where);
 		$this->db->update($table,$data);
 	}
+
+	function tampil_data_pesan(){
+		return $this->db->get('pesan');
+	}
+	function input_data_pesan($data,$table){
+		$this->db->insert($table,$data);
+	}
+	function hapus_data_pesan($where,$table){
+		$this->db->where($where);
+		$this->db->delete($table);
+	}
+	function edit_data_pesan($where,$table){		
+		return $this->db->get_where($table,$where);
+	}
+
+	function update_data_pesan($where,$data,$table){
+		$this->db->where($where);
+		$this->db->update($table,$data);
+	}
+
+	function tampil_data_bayar(){
+		return $this->db->get('bayar');
+	}
+	function input_data_bayar($data,$table){
+		$this->db->insert($table,$data);
+	}
+	function hapus_data_bayar($where,$table){
+		$this->db->where($where);
+		$this->db->delete($table);
+	}
+	function edit_data_bayar($where,$table){		
+		return $this->db->get_where($table,$where);
+	}
+
+	function update_data_bayar($where,$data,$table){
+		$this->db->where($where);
+		$this->db->update($table,$data);
+	}
+	
 }

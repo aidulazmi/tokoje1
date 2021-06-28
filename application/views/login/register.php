@@ -47,7 +47,7 @@ Author URL: http://w3layouts.com
                         <button class="btn btn-primary btn-block" type="submit">Masuk</button>
                     </form>
 
-                    <p class="account">Kamu Belum Memiliki Akun? <a href="<?php echo site_url('C_client/daftar')?>">Daftar</a></p>
+                    <p class="account">Kamu Sudah Memiliki Akun? <a href="<?php echo site_url('C_login/index')?>">Login</a></p>
                 </div>
             </div>
             <!-- //main content -->

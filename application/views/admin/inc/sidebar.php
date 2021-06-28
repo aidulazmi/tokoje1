@@ -64,7 +64,7 @@
           
           <li class="nav-header">Pelanggan</li>
           <li class="nav-item">
-            <a href="<?php echo site_url('')?>" class="nav-link js-scroll-trigger">
+            <a href="<?php echo site_url('C_admin/pesan')?>" class="nav-link js-scroll-trigger">
               <i class="nav-icon fas fa-tools"></i>
               <p>
                 Data Pesanan
@@ -72,7 +72,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo site_url('')?>" class="nav-link js-scroll-trigger">
+            <a href="<?php echo site_url('C_admin/bayar')?>" class="nav-link js-scroll-trigger">
               <i class="nav-icon fas fa-tools"></i>
               <p>
                 Data Pembayaran

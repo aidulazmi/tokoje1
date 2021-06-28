@@ -71,7 +71,41 @@ class C_admin extends CI_Controller {
 
 	}
 
+public function pesan()
+	{
+		if($this->M_login->logged_id2() == 'Admin')
+	{
+		$data['user'] = $this->M_admin->tampil_data_pesan()->result();
+		$this->load->view('admin/inc/head');
+		$this->load->view('admin/inc/sidebar');
+		$this->load->view('admin/data/V_pesan',$data);
+		$this->load->view('admin/inc/footer');
+	}
+	else
+	{
+		redirect("C_login");
 
+	}
+
+	}
+
+public function bayar()
+	{
+		if($this->M_login->logged_id2() == 'Admin')
+	{
+		$data['user'] = $this->M_admin->tampil_data_bayar()->result();
+		$this->load->view('admin/inc/head');
+		$this->load->view('admin/inc/sidebar');
+		$this->load->view('admin/data/V_bayar',$data);
+		$this->load->view('admin/inc/footer');
+	}
+	else
+	{
+		redirect("C_login");
+
+	}
+
+	}
 	//simpan
 
 	function simpan_kategori(){
@@ -134,6 +168,37 @@ class C_admin extends CI_Controller {
 	
 	}
 
+function hapus_pesan($id_pesan){
+
+		if($this->M_login->logged_id2() == 'Admin')
+	{
+	$where = array('id_pesan' => $id_pesan);
+	$this->M_admin->hapus_data_kategori($where,'pesan');
+	redirect('C_admin/pesan');
+	}
+	else
+	{
+		redirect("C_login");
+
+	}
+	
+	}
+
+function hapus_bayar($id_bayar){
+
+		if($this->M_login->logged_id2() == 'Admin')
+	{
+	$where = array('id_bayar' => $id_bayar);
+	$this->M_admin->hapus_data_kategori($where,'bayar');
+	redirect('C_admin/bayar');
+	}
+	else
+	{
+		redirect("C_login");
+
+	}
+	
+	}
 
 	//edit
 
@@ -158,6 +223,29 @@ class C_admin extends CI_Controller {
 
 
 	}
+
+	function edit_bayar($id_bayar){
+			if($this->M_login->logged_id2() == 'Admin')
+	{
+
+		
+		$where = array('id_bayar' => $id_bayar);
+		$data['user'] = $this->M_admin->edit_data_user($where,'bayar')->result();
+		$this->load->view('admin/inc/head');
+		$this->load->view('admin/inc/sidebar');
+		$this->load->view('admin/edit/V_pembayaran',$data);
+		$this->load->view('admin/inc/footer');
+	}
+	else
+	{
+		redirect("C_login");
+
+	}
+
+
+
+	}
+
 
 	//simpan edit
 
@@ -221,6 +309,34 @@ function update_data_user(){
 	}
 }
 
+function update_data_bayar(){
+
+			if($this->M_login->logged_id2() == 'Admin')
+	{
+		$id_bayar = $this->input->post('id_bayar');
+		$no_resi = $this->input->post('no_resi');
+		$verifikasi = $this->input->post('verifikasi');
+
+		$data = array(
+			// 'id_user' => $id_user,
+			'no_resi' => $no_resi,
+			'verifikasi' => $verifikasi
+			);
+
+	$where = array(
+		'id_bayar' => $id_bayar
+	);
+
+	$this->M_admin->update_data_bayar($where,$data,'bayar');
+		redirect('C_admin/bayar');
+	}
+
+	else
+	{
+		redirect("C_login");
+
+	}
+}
 
 	function simpan_barang(){
 

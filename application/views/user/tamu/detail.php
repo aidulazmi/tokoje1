@@ -246,9 +246,6 @@ RIGHT SIDEBAR TOGGLE SECTION
                 <a class="nav-link" href="<?php echo site_url('C_user/index')?>">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo site_url('C_user/produk')?>">Produk</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="<?php echo site_url('C_user/pembayaran')?>">Pembayaran</a>
               </li>
               

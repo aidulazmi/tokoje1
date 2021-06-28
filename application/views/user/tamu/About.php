@@ -13,7 +13,7 @@ Author URL: http://w3layouts.com
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>SpryStore E-commerce Category Bootstrap Responsive Website Template | About :: W3layouts </title>
+  <title>Fathiya Printing</title>
   <!-- Template CSS -->
   <link rel="stylesheet" href="<?=base_url();?>/asset/jualan/assets/css/style-liberty.css">
   <!-- Template CSS -->
@@ -257,9 +257,6 @@ RIGHT SIDEBAR TOGGLE SECTION
               <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="<?php echo site_url('C_user/index')?>">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?php echo site_url('C_user/produk')?>">Produk</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo site_url('C_user/pembayaran')?>">Pembayaran</a>
