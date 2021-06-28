@@ -268,7 +268,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo site_url('C_/Logout')?>">Logout</a>
+								<a class="nav-link" href="<?php echo site_url('C_login/Logout')?>">Logout</a>
 							</li>
 						</ul>
 

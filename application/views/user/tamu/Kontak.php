@@ -7,7 +7,6 @@ Author URL: http://w3layouts.com
 <html lang="zxx">
 
 
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Feb 2021 05:08:54 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
   <!-- Required meta tags -->
