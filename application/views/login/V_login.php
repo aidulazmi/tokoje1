@@ -28,7 +28,7 @@ Author URL: http://w3layouts.com
             <div class="w3l-form-info">
                 <div class="w3_info">
                     <h1>Selamat Datang</h1>
-                    <p class="sub-para">Sahabat Toko Printer</p>
+                    <p class="sub-para">Sahabat Fathiya Printing</p>
                     <h2>Log In</h2>
                     <form method="post" action="<?php echo site_url('C_login')?>">
                         <div class="input-group">

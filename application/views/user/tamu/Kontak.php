@@ -354,26 +354,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 <!---728x90--->
  
 </div>
-    <div class="map-content-9 form-bg-img">
-      <div class="layer section-gap py-5">
-        <div class="container py-lg-5">
-          <div class="form">
-            <h3 class="hny-title two text-center">Fill out the form.</h3>
-            <form action="https://sendmail.w3layouts.com/submitForm"class="mt-md-5 mt-4" method="post">
-              <div class="input-grids">
-                <input type="text" name="w3lName" id="w3lName" placeholder="Name">
-                <input type="email" name="w3lSender" id="w3lSender" placeholder="Email" required="" />
-                <input type="subject" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
-              </div>
-              <div class="input-textarea">
-                <textarea name="w3lMessage" id="w3lMessage" placeholder="Message" required=""></textarea>
-              </div>
-              <button type="submit" class="btn">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 </html>
 

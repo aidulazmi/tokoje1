@@ -317,7 +317,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 								</div>	
 							</div>
 							<div class="col-lg-6 welcome-image">
-								<img src="<?=base_url();?>/asset/jualan/assets/images/2.jpg" class="img-fluid" alt="" />
+								<img src="<?=base_url();?>/asset/jualan/assets/images/4.png" class="img-fluid" alt="" />
 							</div>	
 							
 						</div>	
